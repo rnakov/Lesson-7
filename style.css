@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    font-family:"Roboto", "sans-serif";
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+   color: #ff0000;
+}
+
+.link:focus{
+    color: #00ff00;
+}
+
+.link:focus:hover{
+    color: #ffff00;
+}
+
+h1{
+    font-family: "Verdana",  sans-serif;
+}
+
+.paragraph-1{
+    font-family: "Verdana",  sans-serif;
+     font-style: italic;
+}
+
+
+.paragraph-2{
+    font-weight: 700;
+}
+
+.paragraph-3{
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Verdana", sans-serif;
+}
+
+.link-1{
+    color: #00ff00;
+}
+
+.link-2:{
+    color: #ff0000;
+}
+
+.link-2:visited{
+    color: #00ffff;
+}
+
+.link-3{
+    text-decoration: none;
+
+}
+
+.link-3:hover,
+.link-3:visited{
+    text-decoration: underline;
+}
+
+.link-4{
+    text-decoration: none;
+    background-color: #00ffff;
+    transition: 0.25s all ease-in-out;
+
+}
+
+.link-4:hover{
+    background-color: #ffff00;
+}
+
+.unorderded-list{
+    list-style-type: ;
+    list-style-position: inside;
+    /*list-style-image: url(test.png);*/
+}
+
+.table {
+    border: 1px solid #00ff00;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td{
+    padding: 15px;
+    /*height: 100px;*/
+    vertical-align: middle;
+    text-align: right;
+    background-color: #ffff00;
+    
+}
+
+.custom-element{
+    margin: 100px 0;
+    padding: 50px 0;
+}
+
+.span-1{
+    background-color: #00ff00;
+    display: none;
+    padding: 10px;
+
+}
+
+.span-2{
+    background-color: #ff0000;
+    display: inline;
+    padding: 10px;
+    margin: 50px;
+    
+}
